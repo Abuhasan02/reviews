@@ -1,0 +1,75 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.review {
+  margin-top: 3rem;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  box-shadow: 5px 3px 5px rgb(167, 159, 159);
+  padding: 1.5rem 2rem;
+}
+.img-container {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.person-img {
+  width: 100px;
+  display: block;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+.title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 5rem;
+  color: #102a42;
+}
+.title h2 {
+  font-size: 3.2rem;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background-color: #49a6e9;
+  margin: 0 auto;
+}
+#author {
+  margin-bottom: 0.25rem;
+}
+#job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: #14648a;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+#info {
+  margin-bottom: 0.75rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.button-container{
+    padding: 1.5rem;
+}
+.prev-btn,
+.next-btn {
+  color: #49A6E9 ;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0.5rem 0.5rem;
+  transition: scale(1.25rem) ;
+  cursor: pointer;
+}
+.prev-btn i {
+  color: #1690e7;
+}
